@@ -4,6 +4,8 @@
 echo "Arguments"
 echo "$@"
 
+ls -lia -R /datastores
+
 # run
 echo matlab -batch $@
-matlab -batch plot.mlx
+matlab -batch plot.m
